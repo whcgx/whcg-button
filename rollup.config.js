@@ -22,21 +22,22 @@ export default [{
         file: './dist/index.es6.js',
         format: 'es'
     },
-    name: 'MyModulees6',
-    plugins: [
-        reslove(),
-        commonjs()
-    ]
+    // external: [ 'moment' ],
+    name: 'MyModulees6'
+    // plugins: [
+    //     reslove(),
+    //     commonjs()
+    // ]
 },
 {
   input: 'src/index.js',
   output: {
       file: './dist/index.js',
-      format: 'iife'
+      format: 'cjs'
   },
-  name: 'MyModuleiife',
-  plugins: [
-      reslove(),
-      commonjs()
-  ]
+  name: 'MyModulecjs'
+  // plugins: [
+  //     reslove(),
+  //     commonjs()
+  //]
 }];
