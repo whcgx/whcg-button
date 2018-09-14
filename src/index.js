@@ -9,7 +9,6 @@ export class WhcgButton extends PolymerElement {
         <style>
              vaadin-button {
                 --whcg-host-font-size: var(--whcg-button-host-font-size);
-                --whcg-host-color: var(--whcg-button-host-color);
                 --whcg-host-background-color: var(--whcg-button-host-background-color);
                 --whcg-host-border-radius: var(--whcg-button-host-border-radius);
                 --whcg-host-border-style: var(--whcg-button-host-border-style);
